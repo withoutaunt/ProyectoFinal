@@ -251,31 +251,67 @@ textarea {
     }
 }
 
-$redes: (
-    whatsapp: #25d366 ,
+$redes: (whatsapp: #25d366,
     facebook: #3b5998,
-    instagram: #C13584
-);
-@each $red, $color in $redes {
+    instagram: #C13584);
+
+@each $red,
+$color in $redes {
     .boton#{$red} {
         background-color: $color;
     }
- }
+}
 
-.botonwhatsapp{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-    .my-float{
-	margin-top:16px;
+.botonwhatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+
+    .my-float {
+        margin-top: 16px;
     }
 }
 
+.boton {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.boton--aceptar {
+    @extend .boton;
+    background-color: green;
+    color: yellow;
+}
+
+.boton--cancelar {
+    @extend .boton;
+    background-color: red;
+    color: yellow;
+}
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+.cancion{
+    @include sizes(80px, 50px);
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 100px;
+    right: 40px;
+ }
+ 
