@@ -1,0 +1,3 @@
+Agregue las siguientes keywords al Index: palacio, barolo, teatro, colon, cck, molino, buenos, aires, tours, arquitectura, turismo
+Agregue la descripcion: "¡Tours exclusivos por Buenos Aires! Recorre los edificios mas emblematicos de BA"
+No cambie el title ya que los habia puesto antes y corresponden con lo que se explicaba en clase!
