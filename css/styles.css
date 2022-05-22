@@ -309,3 +309,9 @@ textarea {
   height: 500px;
   object-fit: cover;
 }
+
+.map{
+display: flex;
+align-items: center;
+justify-content: center;
+}
