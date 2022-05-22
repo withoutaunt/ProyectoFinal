@@ -142,9 +142,9 @@ div[data-title]:hover:after {
   align-content: space-evenly;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   grid-template-areas: 'b a d'
-    'c a e';
+   ;
   align-items: center;
 }
 
@@ -152,16 +152,8 @@ div[data-title]:hover:after {
   grid-area: b;
 }
 
-.tituloMolino {
-  grid-area: c;
-}
-
 .tituloCck {
   grid-area: d;
-}
-
-.tituloColon {
-  grid-area: e;
 }
 
 input:focus~label,
@@ -313,5 +305,5 @@ textarea {
 .map{
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content:space-evenly
 }
