@@ -1,22 +1,28 @@
 body {
-  background-color: #ADA3E0; }
-  body footer {
-    background-color: #ADA3E0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    color: #A3E0AD; }
+  background-color: #ADA3E0;
+}
+
+body footer {
+  background-color: #ADA3E0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: #A3E0AD;
+}
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 header {
-  background-color: #ADA3E0; }
+  background-color: #ADA3E0;
+}
 
 body {
-  background-color: #ADA3E0; }
+  background-color: #ADA3E0;
+}
 
 ul li a {
   display: flex;
@@ -25,7 +31,8 @@ ul li a {
   font-size: medium;
   font-family: 'Rufina', serif;
   text-decoration: none;
-  color: #A3E0AD; }
+  color: #A3E0AD;
+}
 
 .titulo {
   text-align: center;
@@ -35,16 +42,19 @@ ul li a {
   height: 50%;
   margin-top: 28px;
   margin-bottom: 20px;
-  color: #A3E0AD; }
+  color: #A3E0AD;
+}
 
 img {
   padding: 10px 12px 10px 12px;
-  display: block; }
+  display: block;
+}
 
 .menu li {
   display: inline-block;
   position: relative;
-  padding: 5px 60px; }
+  padding: 5px 60px;
+}
 
 footer {
   background-color: #ADA3E0;
@@ -52,7 +62,8 @@ footer {
   bottom: 0;
   width: 100%;
   height: 40px;
-  color: #A3E0AD; }
+  color: #A3E0AD;
+}
 
 .boxCal1 {
   width: 315px;
@@ -63,12 +74,14 @@ footer {
   margin-bottom: 10px;
   box-shadow: 0 0 10px #ADA3E0;
   margin: 0 auto;
-  margin-top: 100px; }
+  margin-top: 100px;
+}
 
 .boxCal3 {
   padding: 0 10px 10px 10px;
   box-sizing: border-box !important;
-  background: #a3e0ad71; }
+  background: #a3e0ad71;
+}
 
 .tituloCal {
   font: 18px 'Roboto';
@@ -78,7 +91,8 @@ footer {
   margin: 18px 0 0 0;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+}
 
 .boxCal3 span {
   grid-area: a;
@@ -92,17 +106,20 @@ footer {
   float: left;
   overflow: hidden;
   line-height: 40px;
-  align-self: stretch; }
+  align-self: stretch;
+}
 
 .boxCal3 .jzdb:before {
   opacity: 0.3;
-  content: 'o'; }
+  content: 'o';
+}
 
 .circle {
   border: 1px solid #f7f3eb;
   box-sizing: border-box;
   border-radius: 200px;
-  background-color: #948ac2b2; }
+  background-color: #948ac2b2;
+}
 
 span[data-title]:hover:after,
 div[data-title]:hover:after {
@@ -117,7 +134,8 @@ div[data-title]:hover:after {
   padding: 5px;
   z-index: 9999;
   min-width: 150px;
-  max-width: 150px; }
+  max-width: 150px;
+}
 
 .tours {
   justify-items: center;
@@ -125,41 +143,51 @@ div[data-title]:hover:after {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: 'b a d' 'c a e';
-  align-items: center; }
+  grid-template-areas: 'b a d'
+    'c a e';
+  align-items: center;
+}
 
 .tituloBarolo {
-  grid-area: b; }
+  grid-area: b;
+}
 
 .tituloMolino {
-  grid-area: c; }
+  grid-area: c;
+}
 
 .tituloCck {
-  grid-area: d; }
+  grid-area: d;
+}
 
 .tituloColon {
-  grid-area: e; }
+  grid-area: e;
+}
 
-input:focus ~ label,
-textarea:focus ~ label,
-input:valid ~ label,
-textarea:valid ~ label {
+input:focus~label,
+textarea:focus~label,
+input:valid~label,
+textarea:valid~label {
   font-size: 10px;
   color: #999;
   top: -5px;
   -webkit-transition: all 0.225s ease;
-  transition: all 0.225s ease; }
+  transition: all 0.225s ease;
+}
 
 .styled-input {
   float: left;
   width: 293px;
   margin: 1rem 0;
   position: relative;
-  border-radius: 4px; }
+  border-radius: 4px;
+}
 
 @media only screen and (max-width: 768px) {
   .styled-input {
-    width: 100%; } }
+    width: 100%;
+  }
+}
 
 .styled-input label {
   color: #999;
@@ -169,11 +197,13 @@ textarea:valid ~ label {
   left: 0;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  pointer-events: none; }
+  pointer-events: none;
+}
 
 .styled-input.wide {
   width: 650px;
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 input,
 textarea {
@@ -183,37 +213,46 @@ textarea {
   font-size: 1rem;
   background-color: #A3E0AD;
   color: black;
-  border-radius: 4px; }
+  border-radius: 4px;
+}
 
-input:focus ~ span,
-textarea:focus ~ span {
+input:focus~span,
+textarea:focus~span {
   width: 100%;
   -webkit-transition: all 0.075s ease;
-  transition: all 0.075s ease; }
+  transition: all 0.075s ease;
+}
 
 textarea {
   width: 100%;
-  min-height: 15em; }
+  min-height: 15em;
+}
 
 .input-container {
   width: 650px;
   max-width: 100%;
-  margin: 20px auto 25px auto; }
+  margin: 20px auto 25px auto;
+}
 
 @media (max-width: 768px) {
   .submit-btn {
     width: 100%;
     float: none;
-    text-align: center; } }
+    text-align: center;
+  }
+}
 
 .botonwhatsapp {
-  background-color: #25d366; }
+  background-color: #25d366;
+}
 
 .botonfacebook {
-  background-color: #3b5998; }
+  background-color: #3b5998;
+}
 
 .botoninstagram {
-  background-color: #C13584; }
+  background-color: #C13584;
+}
 
 .botonwhatsapp {
   position: fixed;
@@ -226,26 +265,34 @@ textarea {
   text-align: center;
   font-size: 30px;
   box-shadow: 2px 2px 3px #999;
-  z-index: 100; }
-  .botonwhatsapp .my-float {
-    margin-top: 16px; }
+  z-index: 100;
+}
 
-.boton, .boton--aceptar, .boton--cancelar {
+.botonwhatsapp .my-float {
+  margin-top: 16px;
+}
+
+.boton,
+.boton--aceptar,
+.boton--cancelar {
   width: 200px;
   height: 50px;
   background-color: white;
   text-align: center;
   color: black;
   border-radius: 20px;
-  border: 1px solid black; }
+  border: 1px solid black;
+}
 
 .boton--aceptar {
   background-color: green;
-  color: yellow; }
+  color: yellow;
+}
 
 .boton--cancelar {
   background-color: red;
-  color: yellow; }
+  color: yellow;
+}
 
 .cancion {
   height: 50px;
@@ -254,4 +301,11 @@ textarea {
   width: 60px;
   height: 60px;
   bottom: 100px;
-  right: 40px; }
+  right: 40px;
+}
+
+.d-block{
+   width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
