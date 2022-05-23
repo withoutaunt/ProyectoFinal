@@ -317,6 +317,22 @@ textarea {
 
 }
 
+.forms {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'C S';
+  align-items: center;
+}
+
+.contact {
+  grid-area: C;
+}
+
+.social{
+  grid-area: S;
+}
+
 @media screen and (max-width:767px) {
   .forms {
     display: block;
@@ -324,6 +340,23 @@ textarea {
     float: none;
     text-align: center;
   }
+  .contact {
+    display: block;
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .social {
+    display: block;
+    width: 100%;
+    float: none;
+    text-align: center;
+  
+  }
 
 
+}
+i{
+  font-size: 50px;
+  color: #A3E0AD;
 }
