@@ -313,4 +313,23 @@ textarea {
     float: none;
     text-align: center;
   }
+
+
+}
+
+.forms {
+  justify-items: center;
+  align-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'F S';
+  align-items: center;
+}
+
+.contact{
+  grid-area: F;
+}
+
+.social {
+  grid-area: S;
 }
