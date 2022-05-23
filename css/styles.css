@@ -317,19 +317,13 @@ textarea {
 
 }
 
-.forms {
-  justify-items: center;
-  align-content: space-evenly;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: 'F S';
-  align-items: center;
-}
+@media screen and (max-width:767px) {
+  .forms {
+    display: block;
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
 
-.contact{
-  grid-area: F;
-}
 
-.social {
-  grid-area: S;
 }
